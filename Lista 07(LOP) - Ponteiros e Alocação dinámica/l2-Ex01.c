@@ -1,25 +1,30 @@
 #include <stdio.h>
 
-int maiorMenor(int *n, double *vet[*n]){
-    *vet[0] = 5.4;
+void nMaior(double *v, double *maior,  int *n){
+    *maior = v[0];
 
-    return vet;
+    for(int i = 0; i < *n; i++){
+        if(v[i] > *maior){
+            *maior = v[i];
+        }
+    }
 }
 
 int main(){
     int n;
 
     scanf("%d", &n);
+ 
+    double maior, vet[n];
 
-    double vet[n];
-
-    for(int i=0; i<n; i++){
+    for(int i = 0; i < n; i++){
         scanf("%lf", &vet[i]);
     }
+    maior = vet[0];
 
-    maiorMenor(&n, &vet);
+    nMaior(vet, &maior, &n);
 
-    printf("%lf", vet[0]);
+    printf("%.2lf", maior);
 
     return 0;
 }
