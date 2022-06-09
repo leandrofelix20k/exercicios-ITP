@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 void numParImpar(int *nPares, int *nImpares, int *tamPares, int *tamImpares, int *valores, int *TAM)
 {
