@@ -1,15 +1,9 @@
 #include <stdio.h>
 
-int main(){
-    char emails[10][50];
-    int i, j;
-
-    for(j = 0; j < 10 || emails[j] == 'FIM'; j++){
-        fgets(emails, 10, stdin);
-        printf("%s\n", emails[j]);
-    }
-
-/*    for(i = 0; i < 50; i++){
+void primParte(char *emails, int *TAM){
+    int i;
+    
+    for(i = 0; i < 50 || emails[i] == 'FIM'; i++){
         if(emails[i] == '@'){
             i++;
             while(emails[i] != '.'){
@@ -17,7 +11,17 @@ int main(){
                 i++;
             }
         }
-    } 
-*/
+    }
+}
+
+int main(){
+    int TAM = 50;
+    char emails[TAM];
+
+    fgets(emails, 50, stdin);
+    
+    primParte(emails, &TAM);
+    
+
     return 0;
 }

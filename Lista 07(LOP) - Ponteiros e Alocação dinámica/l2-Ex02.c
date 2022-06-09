@@ -1,17 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void numParImpar(int *nPares, int *nImpares, int *tamPares, int *tamImpares, int *valores, int *TAM)
+void numParImpar(int **nPares, int **nImpares, int *tamPares, int *tamImpares, int *valores, int *TAM)
 {
   int i, j=0, k=0;
+
+  *nPares = (int*) malloc(*tamPares * sizeof(int));
+  *nImpares = (int*) malloc(*tamImpares * sizeof(int));
   
   for(i=0; i <*TAM; i++){
     if(valores[i] % 2 == 0){
-      nPares[j] = valores[i];
+      *nPares[j] = valores[i];
       j++;
     }
     else{
-      nImpares[k] = valores[i];
+      *nImpares[k] = valores[i];
       k++;
     }
   }
@@ -38,10 +41,10 @@ int main(void)
     } 
   }
    
-  int nPares[tamPares];
-  int nImpares[tamImpares];
+  int * nPares;
+  int * nImpares;
 
-  numParImpar(nPares, nImpares, &tamPares, &tamImpares, valores, &TAM);
+  numParImpar(&nPares, &nImpares, &tamPares, &tamImpares, valores, &TAM);
 
   printf("Números Pares:\n");
   for(i=0; i<tamPares; i++){
@@ -52,6 +55,9 @@ int main(void)
   for(i=0; i<tamImpares; i++){
      printf("%d\n", nImpares[i]);
   }
+
+  free(nPares);
+  free(nImpares);
   
   return 0;
 }
