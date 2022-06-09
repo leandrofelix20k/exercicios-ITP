@@ -13,7 +13,7 @@ void nMaior(double *v, double *maior,  int *n){
 int main(){
     int n;
 
-    scanf("%d", &n);
+    scanf("%d", &n);    
  
     double maior, vet[n];
 
