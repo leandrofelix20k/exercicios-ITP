@@ -64,3 +64,41 @@ foi ficou em RECUPERAÇÃO com média <media> precisando de <valor>".
 * Onde valores de <media> e <nota> são os valores da média e o valor
 necessário para o aluno ser aprovado, respectivamente.
 A entrada do programa consiste 3 pares, contendo a nota e o peso de cada unidade.
+
+---
+## Ex04: Aceitos e Não aceitos e o motivo
+  
+Elabore um programa que leia 4 valores inteiros A, B, C e D. Os valores devem ser
+aceitos somente se as seguintes condições forem verdadeiras:
+
+  1. Se B for maior do que C;
+
+  2. Se D for maior do que A;
+
+  3. Se a soma de C com D for maior que a soma de A e B;
+
+  4. Se C e D, ambos, forem positivos;
+  
+Como resposta, escreva a mensagem "Valores aceitos" se atenderem a todas as
+condições. Se os números não atendem alguma dessas condições, imprima "Valores
+não aceitos" e imprima quais condições foram violadas.
+  
+---
+  
+##Ex05: Números binários de 8 bits
+
+Os números binários são muito importantes na computação uma vez que são
+empregados em larga escala em praticamente todas as arquiteturas computacionais
+comerciais.
+
+Um número binário é apenas a representação de um número qualquer em uma
+forma de soma de potências de 2. Cada 1 ou O representa se uma determinada
+potencia de 2 deve ser somada para formar o número. Os números binários também
+carregam uma certa quantidade de bits, por exemplo o número 12 pode ser
+representado como 1100 com 4 bits, ou como 00001100, que é sua representação
+com8 bits.
+
+Assim escreva um programa que recebe como entrada um número inteiro e escreve
+sua representação em 8 bits. O número recebido como entrada deve estar no
+intervalo [0, 255], caso o número esteja fora do intervalo o programa deve imprimir
+um erro como mostrado no exemplo.
