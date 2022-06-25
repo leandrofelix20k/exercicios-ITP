@@ -41,3 +41,4 @@ Operação | Símbolo | Exemplo de entrada
 :---: | --- | :---:
 a and   b | & | a & b
 b or c | \ | b \ c
+((not(z) and k) or (z and not(k)) | ^ | z ^ k
