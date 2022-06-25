@@ -17,3 +17,38 @@ Erro harmônica= (média harmônica - média aritmética) / média aritmética
 Erro geométrica= (média geométrica- média aritmética) / média aritmética
 
 Erro médio= (Erro harmônica + Erro geométrica)/2
+
+---
+
+##Ex02: Triângulo de Floyd
+
+O triângulo de Floyd é uma série de números que são espalhados sequencialmente por uma série
+de linhas, onde em cada linha temos a a quantidade de números correspondente a linha, por
+exemplo linha 5, teremos 5 números, na linha 1 apenas 1, na linha 30 teremos 30 números,
+números estes de acordo com a sequencia. Escreva um programa que dado um número inteiro
+imprima o Triângulo de Floyd.
+
+**Exemplo:**
+
+Com o número 10 a saída espera é:
+
+1
+
+23
+
+456
+
+78910
+
+112131415
+
+16171819 2021
+
+22232425 262728
+
+293031 3233 34 35 36
+
+37 38 39 40 41 42 43 44 45
+
+46 47 48 49 50 51 52 53 54 55
+
