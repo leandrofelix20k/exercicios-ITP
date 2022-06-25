@@ -40,4 +40,4 @@ exemplos de entrada possíveis são mostradas na tabela abaixo:
 Operação | Símbolo | Exemplo de entrada
 :---: | --- | :---:
 a and   b | & | a & b
-b or c | '|' | b | c
+b or c | \ | b \ c
