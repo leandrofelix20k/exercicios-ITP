@@ -20,7 +20,7 @@ Erro médio= (Erro harmônica + Erro geométrica)/2
 
 ---
 
-##Ex02: Triângulo de Floyd
+## Ex02: Triângulo de Floyd
 
 O triângulo de Floyd é uma série de números que são espalhados sequencialmente por uma série
 de linhas, onde em cada linha temos a a quantidade de números correspondente a linha, por
