@@ -52,3 +52,15 @@ Com o número 10 a saída espera é:
 
 46 47 48 49 50 51 52 53 54 55
 
+---
+
+## Ex03: Número palíndromo, par ou impar
+
+Palíndromo é uma palavra, frase ou número que permanece igual quando lida de trás para diante. Por
+extensão, palíndromo é qualquer série de elementos com simetria linear, ou seja, que apresenta a
+mesma sequência de unidades nos dois sentidos. Escreva um programa em C para verificar se um
+número é palíndromo ou não.
+Após a verificação veja se é par ou ímpar
+Exemplo: 4224 é palíndromo e par.
+
+32123 é palíndromo e ímpar.
