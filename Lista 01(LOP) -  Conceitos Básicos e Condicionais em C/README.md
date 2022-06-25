@@ -43,6 +43,8 @@ a and   b | & | a & b
 b or c | \ | b \ c
 ((not(z) and k) or (z and not(k)) | ^ | z ^ k
 
+---
+
 ## Ex03: Aluno na Prova Final ? - Pesos variáveis
 
 Um aluno terminou o semestre e quer saber se foi aprovado ou quanto precisa tirar
@@ -85,7 +87,7 @@ não aceitos" e imprima quais condições foram violadas.
   
 ---
   
-##Ex05: Números binários de 8 bits
+## Ex05: Números binários de 8 bits
 
 Os números binários são muito importantes na computação uma vez que são
 empregados em larga escala em praticamente todas as arquiteturas computacionais
