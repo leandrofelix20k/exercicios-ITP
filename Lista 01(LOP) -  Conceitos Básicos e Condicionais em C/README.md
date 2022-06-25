@@ -42,3 +42,25 @@ Operação | Símbolo | Exemplo de entrada
 a and   b | & | a & b
 b or c | \ | b \ c
 ((not(z) and k) or (z and not(k)) | ^ | z ^ k
+
+## Ex03: Aluno na Prova Final ? - Pesos variáveis
+
+Um aluno terminou o semestre e quer saber se foi aprovado ou quanto precisa tirar
+na prova final para passar. A nota de um aluno é calculada como sendo a média
+ponderada entre suas notas em 3 unidades e os pesos de cada nota. O problema é
+que o professor não usa os pesos fixos, para cada aluno os pesos são diferentes,
+assim o cálculo da nota necessária varia de aluno para aluno.
+Pra ajudar todo mundo a descobrir seu resultado na disciplina e quanto precisa de
+nota, você deve escrever um programa que recebe as três e os três pesos de cada
+unidade. Usando as notas e os pesos, você deve calcular a média do aluno e
+imprimir a saída de acordo com a média. O estado do aluno é definido pelas relações
+abaixo:
+* Caso a média seja menor do que 3.0, o programa deve imprimir: "O aluno foi
+REPROVADO com média <media>"
+* Caso a média seja maior ou igual a 7.0, o programa deve imprimir: "O aluno
+foi APROVADO com média <media>".
+* Caso a média esteja no intervalo [3.0, 7[ o programa deve imprimir: "O aluno
+foi ficou em RECUPERAÇÃO com média <media> precisando de <valor>".
+* Onde valores de <media> e <nota> são os valores da média e o valor
+necessário para o aluno ser aprovado, respectivamente.
+A entrada do programa consiste 3 pares, contendo a nota e o peso de cada unidade.
