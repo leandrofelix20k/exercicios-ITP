@@ -38,6 +38,6 @@ que nunca são a mesma. As operações que devem ser realizadas, bem como
 exemplos de entrada possíveis são mostradas na tabela abaixo:
 
 Operação | Símbolo | Exemplo de entrada
-:---: | ---: | :--- | :---:
+:---: | --- | :---:
 a and   b | & | a & b
 b or c | | | b | c
