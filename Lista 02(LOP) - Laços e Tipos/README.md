@@ -64,3 +64,10 @@ Após a verificação veja se é par ou ímpar
 Exemplo: 4224 é palíndromo e par.
 
 32123 é palíndromo e ímpar.
+
+---
+
+## Ex04: Primeiro e último
+
+Escreva um programa em C para encontrar o primeiro e último digito de qualquer
+número e apresenta a sua soma.
