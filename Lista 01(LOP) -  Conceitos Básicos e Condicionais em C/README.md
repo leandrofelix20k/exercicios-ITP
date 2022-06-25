@@ -1,4 +1,4 @@
-# Lista 01 - Conceitos Básicos e Condicionais em Cs
+# Lista 01 - Conceitos Básicos e Condicionais em C
 
 ## Ex01: Conversor de temperaturas - Configurável
 
