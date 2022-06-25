@@ -1,3 +1,3 @@
-# Questão 01
+# Lista 02 - Laços e Tipos
   
-## Triângulo de Floyd
+## Ex01: Triângulo de Floyd
