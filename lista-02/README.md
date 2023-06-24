@@ -32,13 +32,13 @@ imprima o Triângulo de Floyd.
 
 Com o número 10 a saída espera é:
 
-1
+ 1
 
-23
+ 2 3
 
-456
+ 4 5 6
 
-78910
+ 7 8 9 10
 
 112131415
 
