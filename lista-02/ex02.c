@@ -1,29 +1,33 @@
 #include <stdio.h>
 
-int main(void) 
-{
-    int linhas;
-    int x, y, z = 0;
+int main(){
+    int linhas, cont=1;
 
     scanf("%d", &linhas);
-        if(linhas > 0){
-        for(x = 1; x <= linhas; x++) {
-            for(y = 1; y <= x; y++){
-            z++;
-            if(x < 5 && z <= 9)
-                printf(" %d ", z);
-            else
-                printf("%d ", z);
-            }       
-        
-            printf("\n");
+
+    if(linhas > 0){
+        for(int i=1; i < linhas+1; i++){
+            for(int j=0; j < i; j++){
+                if(cont < 10){
+                    printf(" ");
+                }
+            printf("%d ", cont);
+            cont++;
+            }
+        printf("\n");
         }
+        /*
+        for(int i=1; i < linhas+1; i++){
+            for(int j=0; j < i; j++){
+            printf("%2d ", cont);
+            cont++;
+            }
+        printf("\n");
+        */
     }
-        else if(linhas < 0)
-            printf("Você entrou com %d, tente de novo na próxima\n", linhas);
-    
-        else
-            printf("Você entrou com 0, tente de novo na próxima\n");
-    
+    else{
+        printf("Você entrou com %d, tente de novo na próxima\n", linhas);
+    }
+
     return 0;
 }
