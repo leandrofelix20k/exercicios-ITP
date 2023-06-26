@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main()
-{
+int main(){
     char char1, char2, operador;
 
     scanf("%c %c %c", &char1, &operador, &char2);
@@ -18,7 +17,7 @@ int main()
         printf("|1|0|0|\n");
         printf("+-+-+-+\n");
         printf("|1|1|1|\n");
-    } 
+    }
     if(operador == '|'){
         printf("+-+-+-+\n");
         printf("|0|0|0|\n");
@@ -28,7 +27,7 @@ int main()
         printf("|1|0|1|\n");
         printf("+-+-+-+\n");
         printf("|1|1|1|\n");
-    } 
+    }
 
 if(operador == '^'){
         printf("+-+-+-+\n");
@@ -39,7 +38,7 @@ if(operador == '^'){
         printf("|1|0|1|\n");
         printf("+-+-+-+\n");
         printf("|1|1|0|\n");
-    } 
+    }
     printf("-------\n");
     return 0;
 }
