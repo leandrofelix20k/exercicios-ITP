@@ -22,11 +22,11 @@ Erro médio= (Erro harmônica + Erro geométrica)/2
 
 ## Ex02: Triângulo de Floyd
 
-O triângulo de Floyd é uma série de números que são espalhados sequencialmente por uma série
-de linhas, onde em cada linha temos a a quantidade de números correspondente a linha, por
-exemplo linha 5, teremos 5 números, na linha 1 apenas 1, na linha 30 teremos 30 números,
-números estes de acordo com a sequencia. Escreva um programa que dado um número inteiro
-imprima o Triângulo de Floyd.
+O triângulo de Floyd é uma série de números que são espalhados sequencialmente por uma
+série de linhas, onde em cada linha temos a a quantidade de números correspondente a
+linha, por exemplo linha 5, teremos 5 números, na linha 1 apenas 1, na linha 30 teremos
+30 números, números estes de acordo com a sequencia. Escreva um programa que dado um
+número inteiro imprima o Triângulo de Floyd.
 
 **Exemplo:**
 
@@ -34,11 +34,11 @@ Com o número 10 a saída espera é:
 
  1
 
- 2 3
+ 2  3
 
- 4 5 6
+ 4  5  6
 
- 7 8 9 10
+ 7  8  9 10
 
 11 12 13 14 15
 
@@ -71,3 +71,10 @@ Exemplo: 4224 é palíndromo e par.
 
 Escreva um programa em C para encontrar o primeiro e último digito de qualquer
 número e apresenta a sua soma.
+
+---
+
+## Ex05: Imprimir X com uma letra
+
+Podemos obter formas geométricas com caracteres. Faça um programa que dado um
+inteiro ele imprima no formato de um X na quantidade de linhas -1 do inteiro,com a letra selecionada
