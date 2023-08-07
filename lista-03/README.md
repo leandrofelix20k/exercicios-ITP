@@ -29,3 +29,27 @@ possui, em seguida o programa irá receber N valores inteiros positivos, que
 representam a velocidade de cada lesma do grupo. Seu programa deve possuir uma função
 que, dada uma velocidade, retorna um inteiro que indica o level em que a lesma se
 encontra. Sua saída deve ser o maior level encontrado no grupo.
+
+---
+
+## Ex03: Médias
+
+Antigamente, o cálculo da média na UFRN era calculado através da seguinte fórmula:
+
+Média = ((nota01 x 4) + (nota02 x 5) + (nota03 x 6)) / 15
+
+Exemplo, se uma aluno tirou as notas 8.00, 7.00 e 6.00, sua média é 6.87.
+
+((8.00 x 4) + (7.00 x 5) + (6.00 x 6)) / 15 = 6.87
+
+Atualmente, o cálculo da média na UFRN é uma média aritmética das notas obtidas em
+cada unidade.
+
+Você deve implementar um programa que tenha 3 funções. A primeira função deve receber
+como parâmetro qual o tipo de média que deve ser calculado ('A' para a média antiga e
+'N' para a média nova) e as 3 notas do aluno e deverá retornar a média calculada. para
+calcular a média essa função deverá chamar outra função de acordo com o parâmetro do
+tipo da média. Se o parâmetro for 'A' deverá fazer o cálculo antigo da média. Se for
+'N' deverá fazer o cálculo novo da média.
+
+Observações: as notas deverão conter duas casas decimais.
