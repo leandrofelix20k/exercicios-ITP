@@ -53,3 +53,32 @@ tipo da média. Se o parâmetro for 'A' deverá fazer o cálculo antigo da médi
 'N' deverá fazer o cálculo novo da média.
 
 Observações: as notas deverão conter duas casas decimais.
+
+---
+
+## Ex04: Funções - número primo
+
+Na matemática, um Número Primo é aquele que pode ser dividido somente por 1 (um) e por
+ele mesmo. Por exemplo, o número 7 é primo, pois pode ser dividido apenas pelo
+número 1 e pelo número 7. A tarefa que seu programa deve executar é dizer se um número
+é ou não primo. A primeira linha da entrada contém um inteiro N, indicando o número de
+casos que serão analisados. Cada uma das N linhas seguintes contém um valor inteiro X,
+que pode ser ou não, um número primo. Para cada caso de teste de entrada, deve ser
+impressa a mensagem "X eh primo" ou "X não eh primo", de acordo com a especificação
+fornecida.
+**Atenção**: nesse exercício você deverá implementar uma função que verifica se um número é primo. Ou seja, depois de implementada a sua função de verificação de número
+primo, a mesma deverá ser chamada pelo programa principal ( função main()) de acordo
+com o que foi pedido.
+
+---
+
+## Ex05: Primos gêmeos em intervalo - v2
+
+Diz-se que um número p forma um par de números primos gêmeos se p for e + 2 também for
+primo.
+
+Implemente um programa que leia do usuário dois números inteiros maiores do que 0 n1 e
+n2 denotando um intervalo fechado [n1, n2]. O programa deve imprimir todos os números
+contidos no intervalo que formem pares de primos gêmeos.
+
+**Obrigatoriamente, o seu programa deve conter pelo menos uma função do tipo bool(retorna verdadeiro ou falso).**
