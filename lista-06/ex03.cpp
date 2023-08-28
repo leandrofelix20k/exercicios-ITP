@@ -16,7 +16,7 @@ int main(){
 
         tamStr1 = str1.size();
         pos = str2.find("tes");
-        res = str2.erase(pos, tamStr1);
+        res = str2.erase(pos, tamStr1+pos);
 
         cout << res << "\n";
     } else if(operacao == "strinsert"){
